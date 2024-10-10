@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+form {
+    margin: auto;
+    display: flex;
+    width: 400px;
+}
+
+.input-field {
+    position: relative;
+    width: 250px;
+    height: 44px;
+    line-height: 44px;
+    margin: auto;
+}
+
+label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: #d3d3d3;
+    cursor: text;
+}
+
+label {
+    color: green;
+    background-color: #ffffff;
+    transition: all 1s ease-out;
+  }
+
+input {
+    width: 100%;
+    border: 0;
+    outline: 0;
+    padding: 0.5rem 0;
+    border-bottom: 2px solid #44acc3;
+    box-shadow: none;
+    color: #7266cf;
+}
+
+input:focus + label {
+    color: rgb(128, 0, 77);
+    line-height: 15px;
+}
