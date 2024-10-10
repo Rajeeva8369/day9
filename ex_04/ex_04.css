@@ -1,0 +1,70 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+    font-family: sans-serif;
+}
+.parallax-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+.layer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    z-index: 1;
+}
+#background {
+    background-image: url('9 Background.png');
+    z-index: 1;
+}
+#stars {
+    background-image: url('8 Stars.png');
+    z-index: 2;
+}
+#stars2 {
+    background-image: url('8 Stars2.png');
+    z-index: 3;
+}
+#clouds {
+    background-image: url('7 Clouds.png');
+    z-index: 4;
+}
+#clouds2 {
+    background-image: url('7 Clouds2.png');
+    z-index: 5;
+}
+#mountains {
+    background-image: url('5 Mountains.png');
+    z-index: 6;
+}
+#layer1 {
+    background-image: url('1 Layer1.png');
+    z-index: 7;
+}
+#layer2 {
+    background-image: url('2 Layer2.png');
+    z-index: 8;
+}
+#layer3 {
+    background-image: url('3 Layer3.png');
+    z-index: 9;
+}
+#layer4 {
+    background-image: url('4 Layer4.png');
+    z-index: 10;
+}
+#sun {
+    background-image: url('6 Sun.png');
+    z-index: 11;
+    background-size: 200px; 
+    background-repeat: no-repeat;
+    top: 10%; 
+    left: 50%;
+    transform: translateX(-50%);
+}
